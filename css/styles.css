@@ -16,15 +16,23 @@
   text-transform: uppercase;
 }
 
-.menu-top-line: {
+.content {
+  background-color: #2e2f42;
+}
+
+.menu-top-line {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-.menu-top-line:hover :focus {
+.menu-top-line:hover,
+.menu-top-line:focus {
   color: #404bbf;
+}
+.adress {
+  font-style: normal;
 }
 
 .adress-top-line {
@@ -103,6 +111,14 @@
   width: 264px;
 }
 
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-iteam {
+  background-color: #ffffff;
+}
+
 .team-head {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
@@ -112,7 +128,7 @@
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -152,7 +168,7 @@
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
